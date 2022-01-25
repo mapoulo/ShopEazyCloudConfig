@@ -11,5 +11,5 @@ spring:
       server:
         git:
           uri: https://github.com/mapoulo/ShopEazyCloudConfig.git
-          default-label: main
+          default-label: master
           clone-on-start: true    
