@@ -6,4 +6,13 @@ eureka:
   instance:
     instance-id: ${spring.application.name}:${random.uuid} 
     
-        
+spring:
+  application:
+    name: SHOP-EAZY-CLOUD-CONFIG
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/mapoulo/ShopEazyCloudConfig.git  
+          
+                      
